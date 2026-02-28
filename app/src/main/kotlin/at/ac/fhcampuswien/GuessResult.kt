@@ -1,4 +1,9 @@
 package at.ac.fhcampuswien
-
-// TODO write a data class that represents the result of a guess
-class GuessResult()
+data class GuessResult(
+    val correctDigits: Int,
+    val correctPositions: Int
+) {
+    override fun toString(): String {
+        return "$correctDigits:$correctPositions"
+    }
+}

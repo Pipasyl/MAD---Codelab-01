@@ -1,6 +1,6 @@
 package at.ac.fhcampuswien
 
-import GameManager
+
 import kotlin.reflect.full.*
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
